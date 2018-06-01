@@ -10,9 +10,9 @@ Following the approachable/funky/local vibe, use humantist font like Yellowtail 
 
 Use light color on dark. Other coworking spaces do not do this, so this might be a bold choice. It just seems cool to me. First image sent by client shows the space with a light blue wall. Used this to generate a color palette.
 
-Decided to keep the Signup/Get Started form at the top of the page so that the user can do that first. The goal IS to get people to sign up. 
+Decided to keep the Signup/Get Started form at the top of the page so that the user can do that first. The goal is to get people to sign up. The signup form is centered and the button a contrasting color so that it stands out.
 
-Used icons with labels in Amenities section to clearly communicate what the space has to offer.
+Used icons with labels in Amenities section to clearly communicate what the space has to offer at a glance.
 
 Coworking spaces do not tend to show prices upfront. Users generally have to request information first. This site follows the same protocol.
 
