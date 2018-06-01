@@ -9,3 +9,10 @@
 Following the approachable/funky/local vibe, use humantist font like Yellowtail paired with Open Sans light.
 
 Use light color on dark?
+
+Site areas:
+Banner
+Signup
+Photos
+Costs
+Amenities
