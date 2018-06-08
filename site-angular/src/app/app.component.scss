@@ -5,6 +5,9 @@
   height: 50px;
   background-color: $primary-color;
   color: $secondary-color;
+  position: sticky;
+  top: 0;
+  z-index: 200;
 
   h1 {
     font-size: 1.5rem;
@@ -12,5 +15,45 @@
     justify-content: flex-start;
     align-items: center;
     margin-left: 1.5rem;
+  }
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+
+  background: {
+    image: url(./../assets/img/banner.png);
+    size: cover;
+    position: 100%;
+  }
+
+  h1 {
+    color: $secondary-color;
+    padding-top: 4.375rem;
+    text-shadow: 0 2px 7px $shadow;
+  }
+  
+  .action {
+    background-color: $shadow;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px $shadow;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    min-width: 320px;
+    width: 500px;
+
+    h4  {
+      margin-bottom: 1rem;
+      padding-top: 1.6rem;
+      text-transform: uppercase;
+    }
   }
 }
