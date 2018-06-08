@@ -1,2 +1,16 @@
 @import "./../scss/_mixins";
 @import "./../scss/_variables";
+
+.header {
+  height: 50px;
+  background-color: $primary-color;
+  color: $secondary-color;
+
+  h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1.5rem;
+  }
+}
