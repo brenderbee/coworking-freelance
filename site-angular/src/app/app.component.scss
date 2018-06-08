@@ -102,7 +102,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem;
+    padding: 2.5rem;
 
     .image {
       height: 200px;
@@ -141,7 +141,7 @@
     height: auto;
     justify-content: space-between;
     align-items: center;
-    margin: 1.6rem;
+    margin: 2.5rem;
 
     .text {
       display: flex;
@@ -199,7 +199,7 @@
   padding-bottom: 3.75rem;
 
   .content {
-    margin: 1.6rem 20px;
+    margin: 2.5rem 20px;
   }
 }
 
@@ -230,5 +230,28 @@
     img{
       width: 100%;
     }
+  }
+}
+
+.footer {
+  color: $secondary-color;
+  fill: $secondary-color;
+  margin-top: 1rem;
+  padding: 0 20px;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
+  svg {
+    height: 1.5rem;
   }
 }
