@@ -7,7 +7,7 @@
 }
 
 body {
-  color: $black-grey;
+  color: $primary-color;
 }
 
 h1 {
@@ -15,7 +15,7 @@ h1 {
 
   font: {
     family: $font-header;
-    size: 1.5rem;
+    size: 4.5rem;
   }
 }
 
@@ -23,8 +23,9 @@ h2 {
   margin-bottom: 1.6rem;
 
   font: {
-    family: $font-header;
-    size: 1.375rem;
+    family: $font-body;
+    size: 1.5rem;
+    weight: 300;
   }
 }
 
@@ -32,8 +33,10 @@ h3 {
   margin-bottom: 1.6rem;
 
   font: {
-    family: $font-header;
+    family: $font-body;
     size: 1.125rem;
+    style: italic;
+    weight: 300;
   }
 }
 
