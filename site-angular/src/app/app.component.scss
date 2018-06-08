@@ -104,6 +104,10 @@
     align-items: center;
     padding: 1.6rem;
 
+    img {
+      height: 200px;
+    }
+
     .text {
       display: flex;
       flex-direction: column;
