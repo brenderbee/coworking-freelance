@@ -192,3 +192,43 @@
     }
   }
 }
+
+.gallery {
+  width: 100%;
+
+  .content {
+    margin: 1.6rem 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+
+    .item {
+      width: 100%;
+      color: $secondary-color;
+
+      h3 {
+        text-transform: uppercase;
+      }
+
+      p {
+        line-height: 1.6rem;
+      }
+      
+      .image {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 1.6rem;
+      }
+
+      img{
+        width: 100%;
+      }
+
+    }
+  }
+
+}
