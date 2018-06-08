@@ -10,17 +10,13 @@ _This webpage application is designed for a Portland coworking space that is not
 
 _This project uses Angular CLI as a framework. All dependencies required are included in this project. Node and npm are required to run Angular CLI v1.6.5._
 
-_View deployed site: {url}_
+_View deployed site: https://portland-collective.firebaseapp.com/_
 
 _This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5._
 
 ## Screenshots
 
 Desktop: <br>
-<img src="{url}" width="200" /> <br>
-<img src="{url}" width="400" />
-
-Mobile: <br>
 <img src="{url}" width="200" /> <br>
 <img src="{url}" width="400" />
 
