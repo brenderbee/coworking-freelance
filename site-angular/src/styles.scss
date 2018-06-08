@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./scss/_mixins";
+@import "./scss/_variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $black-grey;
+}
+
+h1 {
+  margin-bottom: 1.6rem;
+
+  font: {
+    family: $font-header;
+    size: 1.5rem;
+  }
+}
+
+h2 {
+  margin-bottom: 1.6rem;
+
+  font: {
+    family: $font-header;
+    size: 1.375rem;
+  }
+}
+
+h3 {
+  margin-bottom: 1.6rem;
+
+  font: {
+    family: $font-header;
+    size: 1.125rem;
+  }
+}
+
+p {
+  font: {
+    family: $font-body;
+    weight: 300;
+  }
+}
