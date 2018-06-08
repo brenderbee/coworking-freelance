@@ -108,7 +108,16 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 55%;
+      width: 75%;
+
+      h2 {
+        text-transform: uppercase;
+      }
+
+      p {
+        max-width: 75%;
+        text-align: center;
+      }
     }
   }
 
