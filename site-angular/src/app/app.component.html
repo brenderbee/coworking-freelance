@@ -1,20 +1,87 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="header">
+  <h1 class="header">Portland Collective</h1>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-<h3>Testing h3</h3>
+<div class="banner">
+  <h1>Portland Collective</h1>
+  <div class="action">
+    <h4>get started</h4>
+    <p>How many employees do you have?</p>
+    <select>
+      <option>Select Option</option>
+      <option>Saab</option>
+      <option>Mercedes</option>
+      <option>Audi</option>
+    </select>
+    <button type="button" name="button">start</button>
+  </div>
+  <div class="about">
+    <div class="content">
+      <div class="image">
+        <img src="" alt="">
+      </div>
+      <div class="text">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet, quis etiam deserunt no vim. Pri in solum eripuit appetere. Ius viris constituam ad. Dicant ponderum per ad, sit populo aliquip at, graeco cetero mandamus te mea.</p>
+      </div>
+    </div>
+  </div>
+  <div class="amenities">
+    <div class="content">
+      <div class="text">
+        <div class="amenity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M192 384h192c53 0 96-43 96-96h32c70.6 0 128-57.4 128-128S582.6 32 512 32H120c-13.3 0-24 10.7-24 24v232c0 53 43 96 96 96zM512 96c35.3 0 64 28.7 64 64s-28.7 64-64 64h-32V96h32zm47.7 384H48.3c-47.6 0-61-64-36-64h583.3c25 0 11.8 64-35.9 64z"/></svg>
+          <p>onsite coffee bar</p>
+        </div>
+        <div class="amenity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M384 416c0 35.346-28.654 64-64 64s-64-28.654-64-64c0-35.346 28.654-64 64-64s64 28.654 64 64zm136.659-124.443c6.465-6.465 6.245-17.065-.564-23.167-113.793-101.985-286.526-101.869-400.19 0-6.809 6.102-7.029 16.702-.564 23.167l34.006 34.006c5.927 5.927 15.464 6.32 21.769.796 82.88-72.609 207.074-72.447 289.768 0 6.305 5.524 15.842 5.132 21.769-.796l34.006-34.006zm112.11-113.718c6.385-6.385 6.254-16.816-.35-22.973-175.768-163.86-449.134-163.8-624.837 0-6.604 6.157-6.735 16.589-.35 22.973l33.966 33.966c6.095 6.095 15.891 6.231 22.224.383 144.763-133.668 368.356-133.702 513.156 0 6.333 5.848 16.129 5.712 22.224-.383l33.967-33.966z"/></svg>
+          <p>high speed internet</p>
+        </div>
+        <div class="amenity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M249.429 211.436c0 31.716-27.715 57.717-61.717 57.717-34.001 0-61.716-26.001-61.716-57.717 0-32.001 27.715-57.716 61.716-57.716 34.001 0 61.717 25.715 61.717 57.716zm254.294 50.002c-18.286 22.573-53.144 50.288-106.289 72.003C453.722 525.163 260 555.735 263.143 457.446c0 1.714-.286-52.859-.286-93.432-4.285-.858-8.571-2-13.714-3.143 0 40.858-.286 98.289-.286 96.575C252 555.735 58.278 525.163 114.566 333.441c-53.145-21.715-88.003-49.43-106.29-72.003-9.143-13.714.858-28.287 16.001-17.715 2 1.428 4.285 2.857 6.285 4.285V49.716C30.563 22.287 51.135 0 76.565 0h359.157c25.429 0 46.002 22.287 46.002 49.716v198.293l6-4.285c15.143-10.573 25.143 4 15.999 17.714zm-46.572-189.15c0-32.858-10.572-45.716-40.859-45.716H98.566c-31.716 0-40.573 10.858-40.573 45.716v192.293c67.717 35.43 125.72 29.144 157.435 28.001 13.429-.286 22.001 2.286 27.144 7.715 1.689 1.687 10.023 9.446 20.287 17.143 1.143-15.715 10.001-25.715 33.716-24.858 32.287 1.428 91.718 7.715 160.577-29.716V72.288zM331.146 153.72c-34.002 0-61.716 25.715-61.716 57.716 0 31.716 27.715 57.717 61.716 57.717 34.287 0 61.716-26.001 61.716-57.717 0-32.001-27.429-57.716-61.716-57.716z"/></svg>
+          <p>communal work areas</p>
+        </div>
+        <div class="amenity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"/></svg>
+          <p>private offices</p>
+        </div>
+        <div class="amenity">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 192h-16V81.941a24 24 0 0 0-7.029-16.97L383.029 7.029A24 24 0 0 0 366.059 0H88C74.745 0 64 10.745 64 24v168H48c-26.51 0-48 21.49-48 48v132c0 6.627 5.373 12 12 12h52v104c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24V384h52c6.627 0 12-5.373 12-12V240c0-26.51-21.49-48-48-48zm-80 256H128v-96h256v96zM128 224V64h192v40c0 13.2 10.8 24 24 24h40v96H128zm304 72c-13.254 0-24-10.746-24-24s10.746-24 24-24 24 10.746 24 24-10.746 24-24 24z"/></svg>
+          <p>printing & fax services</p>
+        </div>
+      </div>
+      <div class="image">
+        <img src="" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="content">
+      <div class="grid">
+        <div class="item">
+          <div class="image">
+            <img src="" alt="">
+          </div>
+          <h3>Header 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="" alt="">
+          </div>
+          <h3>Header 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="" alt="">
+          </div>
+          <h3>Header 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+
+  </div>
+</div>
