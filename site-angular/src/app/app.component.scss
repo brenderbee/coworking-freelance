@@ -137,25 +137,40 @@
     align-items: center;
     margin: 1.6rem;
 
-    // .text {
-    //   display: flex;
-    //   flex-direction: column;
-    //   justify-content: center;
-    //   align-items: center;
-    // }
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 1.6rem;
+    }
+
+    h2 {
+      text-transform: uppercase;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      align-self: baseline;
+      align-items: center;
+    }
+
+    .amenity {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    p {
+      text-align: center;
+    }
   }
 
   svg {
     height: 2rem;
   }
-
-  // .amenity {
-  //   width: (100% / 5);
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: baseline;
-  // }
 
   .image {
     border-radius: 100%;
